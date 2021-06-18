@@ -5,20 +5,20 @@ Proyecto para la materia de Análisis y Diseño de Algoritmos - Universidad de C
 
 ### Menú Principal
 
-![Vista Menú Principal](docs\images\menu-principal.png)
+![Vista Menú Principal](docs/images/menu-principal.png)
 
 ### Galaxia
 
-![Vista Galaxia](docs\images\galaxia-view.png)
+![Vista Galaxia](docs/images/galaxia-view.png)
 
 ### Nebulosa
 
-![Vista Nebulosa](docs\images\nebulosa-view.png)
+![Vista Nebulosa](docs/images/nebulosa-view.png)
 
 ### Sistema Solar
 
-![Vista ](docs\images\sistema-solar-view.png)
+![Vista ](docs/images/sistema-solar-view.png)
 
 ### Inicio de la Simulación
 
-![Vista Inicio de la Simulación](docs\images\simulacion.gif)
+![Vista Inicio de la Simulación](docs/images/simulacion.gif)

@@ -1,0 +1,2 @@
+@REM npm install -g http-server
+http-server <Folder_Path> -p 80

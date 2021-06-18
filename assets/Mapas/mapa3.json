@@ -1,0 +1,4565 @@
+{
+    "planetaOrigen": [
+      0,
+      2,
+      0
+    ],
+    "nebulosas": [
+      {
+        "nombre": "Hélix",
+        "peligrosa": true,
+        "estacionEspacial": [
+          0,
+          4,
+          2
+        ],
+        "teletransportador": [
+          0,
+          2,
+          2
+        ],
+        "sprite": {
+          "posx": 41,
+          "posy": 380,
+          "selected": "nebulosa1Peligrosa"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Lupi",
+            "sprite": {
+              "posx": 616,
+              "posy": 357,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Kepler-16b",
+                "tipo": "planeta",
+                "iridio": 7423,
+                "platino": 4901,
+                "paladio": 4036,
+                "elementoZero": 6703,
+                "sprite": {
+                  "posx": 250,
+                  "posy": 73,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "HD 189733b",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 2547,
+                "paladio": 5000,
+                "elementoZero": 6030,
+                "sprite": {
+                  "posx": 1041,
+                  "posy": 204,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Kepler-36c",
+                "tipo": "planeta",
+                "iridio": 7159,
+                "platino": 5000,
+                "paladio": 2282,
+                "elementoZero": 5333,
+                "sprite": {
+                  "posx": 219,
+                  "posy": 369,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 5886,
+                "platino": 2667,
+                "paladio": 4829,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 956,
+                  "posy": 449,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 3748,
+                "platino": 5000,
+                "paladio": 1730,
+                "elementoZero": 7616,
+                "sprite": {
+                  "posx": 757,
+                  "posy": 36,
+                  "selected": "planeta4"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                0
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Saturno",
+            "sprite": {
+              "posx": 1047,
+              "posy": 405,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "WASP-12b",
+                "tipo": "planeta",
+                "iridio": 6655,
+                "platino": 4637,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 476,
+                  "posy": 52,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "HD 189733b",
+                "tipo": "planeta",
+                "iridio": 5982,
+                "platino": 5000,
+                "paladio": 6559,
+                "elementoZero": 3748,
+                "sprite": {
+                  "posx": 967,
+                  "posy": 470,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Marte",
+                "tipo": "planeta",
+                "iridio": 5429,
+                "platino": 3339,
+                "paladio": 7712,
+                "elementoZero": 6246,
+                "sprite": {
+                  "posx": 179,
+                  "posy": 349,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Saturno",
+                "tipo": "planeta",
+                "iridio": 6583,
+                "platino": 5309,
+                "paladio": 4372,
+                "elementoZero": 6943,
+                "sprite": {
+                  "posx": 1035,
+                  "posy": 94,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Arae",
+            "sprite": {
+              "posx": 182,
+              "posy": 163,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 3291,
+                "platino": 8000,
+                "paladio": 6366,
+                "elementoZero": 4517,
+                "sprite": {
+                  "posx": 964,
+                  "posy": 417,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Corot-7b",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 4324,
+                "elementoZero": 6583,
+                "sprite": {
+                  "posx": 918,
+                  "posy": 59,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 81,
+                  "posy": 413,
+                  "selected": "teletransportador1"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 4492,
+                "platino": 6414,
+                "paladio": 3219,
+                "elementoZero": 5333,
+                "sprite": {
+                  "posx": 306,
+                  "posy": 70,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 5069,
+                "platino": 3099,
+                "paladio": 5910,
+                "elementoZero": 3964,
+                "sprite": {
+                  "posx": 535,
+                  "posy": 426,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Leonis",
+            "sprite": {
+              "posx": 510,
+              "posy": 16,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 2000,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 181,
+                  "posy": 152,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 1000,
+                "paladio": 1000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 632,
+                  "posy": 275,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 181,
+                  "posy": 463,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 1062,
+                  "posy": 440,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 610,
+                  "posy": 27,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 6",
+                "tipo": "planeta",
+                "iridio": 7904,
+                "platino": 4060,
+                "paladio": 5309,
+                "elementoZero": 6847,
+                "sprite": {
+                  "posx": 1040,
+                  "posy": 42,
+                  "selected": "planeta4"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Herculis",
+            "sprite": {
+              "posx": 103,
+              "posy": 446,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "TrES-2b",
+                "tipo": "planeta",
+                "iridio": 3315,
+                "platino": 4180,
+                "paladio": 3003,
+                "elementoZero": 5213,
+                "sprite": {
+                  "posx": 683,
+                  "posy": 9,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 2000,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 755,
+                  "posy": 442,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 1073,
+                  "posy": 210,
+                  "selected": "estacionEspacial2"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 6871,
+                "platino": 2811,
+                "paladio": 5069,
+                "elementoZero": 6583,
+                "sprite": {
+                  "posx": 237,
+                  "posy": 401,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Cristal",
+                "tipo": "planeta",
+                "iridio": 8000,
+                "platino": 2907,
+                "paladio": 6318,
+                "elementoZero": 4252,
+                "sprite": {
+                  "posx": 126,
+                  "posy": 91,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                3
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Andromedae",
+            "sprite": {
+              "posx": 953,
+              "posy": 66,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 2000,
+                "platino": 5000,
+                "paladio": 7375,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 1007,
+                  "posy": 458,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 63,
+                  "posy": 410,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 6102,
+                "elementoZero": 4228,
+                "sprite": {
+                  "posx": 943,
+                  "posy": 118,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 6102,
+                "elementoZero": 4228,
+                "sprite": {
+                  "posx": 168,
+                  "posy": 127,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 4204,
+                "platino": 7159,
+                "paladio": 5141,
+                "elementoZero": 2739,
+                "sprite": {
+                  "posx": 504,
+                  "posy": 444,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 6",
+                "tipo": "planeta",
+                "iridio": 3508,
+                "platino": 5000,
+                "paladio": 7063,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 531,
+                  "posy": 84,
+                  "selected": "planeta4"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            99999999,
+            99999999,
+            80000,
+            180000,
+            80000
+          ],
+          [
+            99999999,
+            99999999,
+            99999999,
+            99999999,
+            99999999,
+            140000
+          ],
+          [
+            99999999,
+            99999999,
+            99999999,
+            150000,
+            99999999,
+            165000
+          ],
+          [
+            80000,
+            99999999,
+            150000,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            180000,
+            99999999,
+            99999999,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            80000,
+            140000,
+            165000,
+            99999999,
+            99999999,
+            99999999
+          ]
+        ]
+      },
+      {
+        "nombre": "Saturno",
+        "peligrosa": false,
+        "estacionEspacial": [
+          1,
+          1,
+          4
+        ],
+        "teletransportador": [
+          1,
+          0,
+          4
+        ],
+        "sprite": {
+          "posx": 1036,
+          "posy": 401,
+          "selected": "nebulosa2"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Sistema Solar 1",
+            "sprite": {
+              "posx": 605,
+              "posy": 393,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 2000,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 440,
+                  "posy": 47,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 7351,
+                "platino": 721,
+                "paladio": 3748,
+                "elementoZero": 5742,
+                "sprite": {
+                  "posx": 958,
+                  "posy": 66,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 2907,
+                "platino": 5934,
+                "paladio": 6366,
+                "elementoZero": 3532,
+                "sprite": {
+                  "posx": 1025,
+                  "posy": 435,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 6751,
+                "platino": 4853,
+                "paladio": 5838,
+                "elementoZero": 2162,
+                "sprite": {
+                  "posx": 423,
+                  "posy": 457,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "teletransportador1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 2",
+            "sprite": {
+              "posx": 609,
+              "posy": 78,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "WASP-12b",
+                "tipo": "planeta",
+                "iridio": 3820,
+                "platino": 2090,
+                "paladio": 5357,
+                "elementoZero": 5550,
+                "sprite": {
+                  "posx": 786,
+                  "posy": 36,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 3291,
+                "platino": 4565,
+                "paladio": 3243,
+                "elementoZero": 5886,
+                "sprite": {
+                  "posx": 951,
+                  "posy": 388,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 1706,
+                "platino": 4973,
+                "paladio": 3219,
+                "elementoZero": 5429,
+                "sprite": {
+                  "posx": 492,
+                  "posy": 473,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 4541,
+                "platino": 2426,
+                "paladio": 5381,
+                "elementoZero": 937,
+                "sprite": {
+                  "posx": 433,
+                  "posy": 148,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 188,
+                  "posy": 292,
+                  "selected": "estacionEspacial2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                2
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 3",
+            "sprite": {
+              "posx": 260,
+              "posy": 73,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 3652,
+                "elementoZero": 6174,
+                "sprite": {
+                  "posx": 957,
+                  "posy": 40,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 5213,
+                "platino": 3000,
+                "paladio": 1273,
+                "elementoZero": 4925,
+                "sprite": {
+                  "posx": 1028,
+                  "posy": 432,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 5165,
+                "platino": 3868,
+                "paladio": 3363,
+                "elementoZero": 1297,
+                "sprite": {
+                  "posx": 424,
+                  "posy": 461,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "WASP-12b",
+                "tipo": "planeta",
+                "iridio": 7111,
+                "platino": 4036,
+                "paladio": 4420,
+                "elementoZero": 3676,
+                "sprite": {
+                  "posx": 115,
+                  "posy": 403,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 2523,
+                "platino": 1802,
+                "paladio": 3580,
+                "elementoZero": 5694,
+                "sprite": {
+                  "posx": 189,
+                  "posy": 84,
+                  "selected": "planeta3"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 4",
+            "sprite": {
+              "posx": 173,
+              "posy": 388,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "WASP-12b",
+                "tipo": "planeta",
+                "iridio": 5213,
+                "platino": 3772,
+                "paladio": 5646,
+                "elementoZero": 3315,
+                "sprite": {
+                  "posx": 437,
+                  "posy": 348,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "TrES-2b",
+                "tipo": "planeta",
+                "iridio": 6126,
+                "platino": 1538,
+                "paladio": 4156,
+                "elementoZero": 5069,
+                "sprite": {
+                  "posx": 520,
+                  "posy": 93,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 6198,
+                "platino": 5000,
+                "paladio": 7952,
+                "elementoZero": 6366,
+                "sprite": {
+                  "posx": 915,
+                  "posy": 123,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 7736,
+                "platino": 3000,
+                "paladio": 2811,
+                "elementoZero": 4901,
+                "sprite": {
+                  "posx": 813,
+                  "posy": 424,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 7303,
+                "platino": 4060,
+                "paladio": 2811,
+                "elementoZero": 3868,
+                "sprite": {
+                  "posx": 163,
+                  "posy": 451,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 5",
+            "sprite": {
+              "posx": 992,
+              "posy": 399,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 3195,
+                "platino": 4420,
+                "paladio": 3075,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 424,
+                  "posy": 70,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 8000,
+                "paladio": 3940,
+                "elementoZero": 8000,
+                "sprite": {
+                  "posx": 891,
+                  "posy": 89,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Saturno",
+                "tipo": "planeta",
+                "iridio": 5213,
+                "platino": 2907,
+                "paladio": 5742,
+                "elementoZero": 5381,
+                "sprite": {
+                  "posx": 926,
+                  "posy": 368,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Urano",
+                "tipo": "planeta",
+                "iridio": 5598,
+                "platino": 2787,
+                "paladio": 3027,
+                "elementoZero": 7111,
+                "sprite": {
+                  "posx": 300,
+                  "posy": 430,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Blue",
+                "tipo": "planeta",
+                "iridio": 7447,
+                "platino": 3000,
+                "paladio": 2330,
+                "elementoZero": 4300,
+                "sprite": {
+                  "posx": 1108,
+                  "posy": 199,
+                  "selected": "planeta3"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                2
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 6",
+            "sprite": {
+              "posx": 984,
+              "posy": 87,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 4901,
+                "platino": 7375,
+                "paladio": 5598,
+                "elementoZero": 8000,
+                "sprite": {
+                  "posx": 656,
+                  "posy": 56,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 4781,
+                "platino": 4637,
+                "paladio": 2643,
+                "elementoZero": 5910,
+                "sprite": {
+                  "posx": 791,
+                  "posy": 275,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Pluton",
+                "tipo": "planeta",
+                "iridio": 7640,
+                "platino": 6414,
+                "paladio": 1489,
+                "elementoZero": 4396,
+                "sprite": {
+                  "posx": 548,
+                  "posy": 412,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 148,
+                  "posy": 375,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Giro",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 3556,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            78000,
+            100000,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            78000,
+            99999999,
+            200000,
+            99999999,
+            200000,
+            95000
+          ],
+          [
+            100000,
+            200000,
+            99999999,
+            130000,
+            99999999,
+            99999999
+          ],
+          [
+            99999999,
+            99999999,
+            130000,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            99999999,
+            200000,
+            99999999,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            99999999,
+            95000,
+            99999999,
+            99999999,
+            99999999,
+            99999999
+          ]
+        ]
+      },
+      {
+        "nombre": "Stingray",
+        "peligrosa": false,
+        "estacionEspacial": [
+          2,
+          3,
+          4
+        ],
+        "teletransportador": [
+          2,
+          1,
+          4
+        ],
+        "sprite": {
+          "posx": 1126,
+          "posy": 13,
+          "selected": "nebulosa3"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Librae",
+            "sprite": {
+              "posx": 1019,
+              "posy": 406,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 3892,
+                "platino": 6222,
+                "paladio": 1514,
+                "elementoZero": 4565,
+                "sprite": {
+                  "posx": 503,
+                  "posy": 42,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 5237,
+                "platino": 2354,
+                "paladio": 6390,
+                "elementoZero": 2306,
+                "sprite": {
+                  "posx": 1025,
+                  "posy": 98,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 759,
+                  "posy": 330,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Blue",
+                "tipo": "planeta",
+                "iridio": 5237,
+                "platino": 1730,
+                "paladio": 1682,
+                "elementoZero": 6583,
+                "sprite": {
+                  "posx": 118,
+                  "posy": 343,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 4300,
+                "elementoZero": 4805,
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                3
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Leonis",
+            "sprite": {
+              "posx": 732,
+              "posy": 74,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 300,
+                  "posy": 48,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 197,
+                  "posy": 364,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 6150,
+                "platino": 5958,
+                "paladio": 2138,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 783,
+                  "posy": 350,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 4757,
+                "platino": 5000,
+                "paladio": 3291,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 853,
+                  "posy": 64,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 1199,
+                  "posy": 471,
+                  "selected": "teletransportador1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Virginis",
+            "sprite": {
+              "posx": 421,
+              "posy": 423,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 4036,
+                "platino": 5000,
+                "paladio": 4757,
+                "elementoZero": 1393,
+                "sprite": {
+                  "posx": 971,
+                  "posy": 333,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 5862,
+                "platino": 3000,
+                "paladio": 1754,
+                "elementoZero": 5574,
+                "sprite": {
+                  "posx": 198,
+                  "posy": 332,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 5069,
+                "platino": 5000,
+                "paladio": 1441,
+                "elementoZero": 5357,
+                "sprite": {
+                  "posx": 495,
+                  "posy": 62,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 2739,
+                "platino": 8000,
+                "paladio": 3772,
+                "elementoZero": 8000,
+                "sprite": {
+                  "posx": 231,
+                  "posy": 103,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 8000,
+                "platino": 8000,
+                "paladio": 8000,
+                "elementoZero": 8000,
+                "sprite": {
+                  "posx": 934,
+                  "posy": 49,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                1
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                4,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 4",
+            "sprite": {
+              "posx": 238,
+              "posy": 99,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "TrES-4",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 2931,
+                "elementoZero": 2763,
+                "sprite": {
+                  "posx": 152,
+                  "posy": 96,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Azius",
+                "tipo": "planeta",
+                "iridio": 4973,
+                "platino": 4300,
+                "paladio": 2931,
+                "elementoZero": 6342,
+                "sprite": {
+                  "posx": 484,
+                  "posy": 243,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 6222,
+                "platino": 4829,
+                "paladio": 2210,
+                "elementoZero": 3700,
+                "sprite": {
+                  "posx": 492,
+                  "posy": 43,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 853,
+                  "posy": 31,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 902,
+                  "posy": 312,
+                  "selected": "estacionEspacial1"
+                }
+              },
+              {
+                "nombre": "Saturno",
+                "tipo": "planeta",
+                "iridio": 5670,
+                "platino": 1922,
+                "paladio": 5934,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 221,
+                  "posy": 423,
+                  "selected": "planeta4"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                99999999,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            3,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            135000,
+            99999999,
+            150000
+          ],
+          [
+            135000,
+            99999999,
+            160000,
+            100000
+          ],
+          [
+            99999999,
+            160000,
+            99999999,
+            80000
+          ],
+          [
+            150000,
+            100000,
+            80000,
+            99999999
+          ]
+        ]
+      },
+      {
+        "nombre": "Búho",
+        "peligrosa": true,
+        "estacionEspacial": [
+          3,
+          3,
+          1
+        ],
+        "teletransportador": [
+          3,
+          0,
+          3
+        ],
+        "sprite": {
+          "posx": 481,
+          "posy": 324,
+          "selected": "nebulosa4Peligrosa"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Andromedae",
+            "sprite": {
+              "posx": 353,
+              "posy": 426,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 7904,
+                "platino": 5429,
+                "paladio": 3532,
+                "elementoZero": 6270,
+                "sprite": {
+                  "posx": 586,
+                  "posy": 63,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 3315,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 6486,
+                "sprite": {
+                  "posx": 976,
+                  "posy": 67,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Jupiter",
+                "tipo": "planeta",
+                "iridio": 4637,
+                "platino": 4108,
+                "paladio": 8000,
+                "elementoZero": 2835,
+                "sprite": {
+                  "posx": 222,
+                  "posy": 428,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 1047,
+                  "posy": 473,
+                  "selected": "teletransportador2"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 232,
+                  "posy": 134,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                0
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Leonis",
+            "sprite": {
+              "posx": 700,
+              "posy": 115,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 3219,
+                "platino": 1994,
+                "paladio": 6967,
+                "elementoZero": 3075,
+                "sprite": {
+                  "posx": 927,
+                  "posy": 309,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 6174,
+                "platino": 4661,
+                "paladio": 2595,
+                "elementoZero": 6775,
+                "sprite": {
+                  "posx": 599,
+                  "posy": 403,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 8000,
+                "platino": 6342,
+                "paladio": 4132,
+                "elementoZero": 3363,
+                "sprite": {
+                  "posx": 302,
+                  "posy": 292,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Marte",
+                "tipo": "planeta",
+                "iridio": 6294,
+                "platino": 2090,
+                "paladio": 4877,
+                "elementoZero": 3411,
+                "sprite": {
+                  "posx": 513,
+                  "posy": 116,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 6511,
+                "platino": 5000,
+                "paladio": 3676,
+                "elementoZero": 5790,
+                "sprite": {
+                  "posx": 778,
+                  "posy": 117,
+                  "selected": "planeta4"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                0,
+                4
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Librae",
+            "sprite": {
+              "posx": 1007,
+              "posy": 503,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 3748,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 838,
+                  "posy": 211,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 1056,
+                  "posy": 23,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 6174,
+                "platino": 1105,
+                "paladio": 3291,
+                "elementoZero": 2691,
+                "sprite": {
+                  "posx": 1054,
+                  "posy": 442,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 4204,
+                "platino": 7471,
+                "paladio": 6102,
+                "elementoZero": 2619,
+                "sprite": {
+                  "posx": 90,
+                  "posy": 346,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 4228,
+                "platino": 5000,
+                "paladio": 5237,
+                "elementoZero": 1850,
+                "sprite": {
+                  "posx": 356,
+                  "posy": 67,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 6",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 1225,
+                "paladio": 3892,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 358,
+                  "posy": 382,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Eridani",
+            "sprite": {
+              "posx": 1050,
+              "posy": 212,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 2523,
+                "platino": 5766,
+                "paladio": 1754,
+                "elementoZero": 8000,
+                "sprite": {
+                  "posx": 867,
+                  "posy": 130,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 597,
+                  "posy": 293,
+                  "selected": "estacionEspacial2"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 4517,
+                "platino": 5000,
+                "paladio": 6222,
+                "elementoZero": 6006,
+                "sprite": {
+                  "posx": 133,
+                  "posy": 426,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 878,
+                  "posy": 414,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 331,
+                  "posy": 86,
+                  "selected": "planeta2"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                1,
+                4
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 5",
+            "sprite": {
+              "posx": 261,
+              "posy": 134,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 5766,
+                "platino": 3219,
+                "paladio": 4156,
+                "elementoZero": 6366,
+                "sprite": {
+                  "posx": 344,
+                  "posy": 56,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 4781,
+                "platino": 3195,
+                "paladio": 4997,
+                "elementoZero": 5910,
+                "sprite": {
+                  "posx": 505,
+                  "posy": 408,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 6535,
+                "platino": 4444,
+                "paladio": 3003,
+                "elementoZero": 6366,
+                "sprite": {
+                  "posx": 98,
+                  "posy": 404,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 3820,
+                "platino": 5000,
+                "paladio": 5526,
+                "elementoZero": 4541,
+                "sprite": {
+                  "posx": 1045,
+                  "posy": 65,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 6438,
+                "platino": 3315,
+                "paladio": 3363,
+                "elementoZero": 1898,
+                "sprite": {
+                  "posx": 961,
+                  "posy": 443,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                1
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            4,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            95000,
+            125000,
+            99999999,
+            160000
+          ],
+          [
+            95000,
+            99999999,
+            99999999,
+            130000,
+            76500
+          ],
+          [
+            125000,
+            99999999,
+            99999999,
+            99000,
+            99999999
+          ],
+          [
+            99999999,
+            130000,
+            99000,
+            99999999,
+            99999999
+          ],
+          [
+            160000,
+            76500,
+            99999999,
+            99999999,
+            99999999
+          ]
+        ]
+      },
+      {
+        "nombre": "Hormiga",
+        "peligrosa": false,
+        "estacionEspacial": [
+          4,
+          1,
+          3
+        ],
+        "teletransportador": [
+          4,
+          2,
+          4
+        ],
+        "sprite": {
+          "posx": 734,
+          "posy": 76,
+          "selected": "nebulosa5"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Gliese 667 C",
+            "sprite": {
+              "posx": 251,
+              "posy": 109,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 3796,
+                "platino": 5189,
+                "paladio": 3003,
+                "elementoZero": 6198,
+                "sprite": {
+                  "posx": 937,
+                  "posy": 134,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "TrES-4",
+                "tipo": "planeta",
+                "iridio": 4661,
+                "platino": 5982,
+                "paladio": 2787,
+                "elementoZero": 6030,
+                "sprite": {
+                  "posx": 485,
+                  "posy": 245,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Saturno",
+                "tipo": "planeta",
+                "iridio": 5886,
+                "platino": 1730,
+                "paladio": 3363,
+                "elementoZero": 4468,
+                "sprite": {
+                  "posx": 845,
+                  "posy": 458,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Mercurio",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 176,
+                  "posy": 411,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 6414,
+                "platino": 1730,
+                "paladio": 3676,
+                "elementoZero": 673,
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Gliese 777",
+            "sprite": {
+              "posx": 562,
+              "posy": 394,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Corot-7b",
+                "tipo": "planeta",
+                "iridio": 5670,
+                "platino": 2186,
+                "paladio": 3844,
+                "elementoZero": 4396,
+                "sprite": {
+                  "posx": 840,
+                  "posy": 377,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 5766,
+                "platino": 7000,
+                "paladio": 1321,
+                "elementoZero": 2667,
+                "sprite": {
+                  "posx": 244,
+                  "posy": 381,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 3700,
+                "platino": 5000,
+                "paladio": 2210,
+                "elementoZero": 5477,
+                "sprite": {
+                  "posx": 524,
+                  "posy": 45,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 913,
+                  "posy": 50,
+                  "selected": "estacionEspacial1"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 5862,
+                "platino": 1393,
+                "paladio": 4372,
+                "elementoZero": 5790,
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "planeta3"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                1
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Leonis",
+            "sprite": {
+              "posx": 954,
+              "posy": 79,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "TrES-2b",
+                "tipo": "planeta",
+                "iridio": 4685,
+                "platino": 7000,
+                "paladio": 1658,
+                "elementoZero": 3916,
+                "sprite": {
+                  "posx": 493,
+                  "posy": 38,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 2258,
+                "platino": 3147,
+                "paladio": 2859,
+                "elementoZero": 1610,
+                "sprite": {
+                  "posx": 963,
+                  "posy": 48,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 908,
+                  "posy": 378,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Blanco",
+                "tipo": "planeta",
+                "iridio": 4589,
+                "platino": 5000,
+                "paladio": 1273,
+                "elementoZero": 5526,
+                "sprite": {
+                  "posx": 167,
+                  "posy": 390,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 100,
+                  "posy": 100,
+                  "selected": "teletransportador2"
+                }
+              },
+              {
+                "nombre": "Planeta 6",
+                "tipo": "planeta",
+                "iridio": 1754,
+                "platino": 5213,
+                "paladio": 1898,
+                "elementoZero": 4733,
+                "sprite": {
+                  "posx": 563,
+                  "posy": 390,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                1,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            120000,
+            150000
+          ],
+          [
+            120000,
+            99999999,
+            123000
+          ],
+          [
+            150000,
+            123000,
+            99999999
+          ]
+        ]
+      },
+      {
+        "nombre": "Espirógrafo",
+        "peligrosa": false,
+        "estacionEspacial": [
+          5,
+          4,
+          2
+        ],
+        "teletransportador": [
+          5,
+          4,
+          3
+        ],
+        "sprite": {
+          "posx": 173,
+          "posy": 45,
+          "selected": "nebulosa3"
+        },
+        "sistemasPlanetarios": [
+          {
+            "nombre": "Sistema Solar 1",
+            "sprite": {
+              "posx": 998,
+              "posy": 413,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "TrES-2b",
+                "tipo": "planeta",
+                "iridio": 5670,
+                "platino": 8000,
+                "paladio": 3796,
+                "elementoZero": 2763,
+                "sprite": {
+                  "posx": 713,
+                  "posy": 173,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 3892,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 1075,
+                  "posy": 111,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 5670,
+                "platino": 4204,
+                "paladio": 6535,
+                "elementoZero": 6943,
+                "sprite": {
+                  "posx": 523,
+                  "posy": 450,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 7159,
+                "platino": 5000,
+                "paladio": 5429,
+                "elementoZero": 3964,
+                "sprite": {
+                  "posx": 115,
+                  "posy": 392,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 278,
+                  "posy": 183,
+                  "selected": "planeta5"
+                }
+              },
+              {
+                "nombre": "Planeta 6",
+                "tipo": "planeta",
+                "iridio": 7471,
+                "platino": 4517,
+                "paladio": 5790,
+                "elementoZero": 3363,
+                "sprite": {
+                  "posx": 1089,
+                  "posy": 402,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                0
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                5,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 2",
+            "sprite": {
+              "posx": 156,
+              "posy": 128,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 6438,
+                "platino": 3363,
+                "paladio": 4973,
+                "elementoZero": 7231,
+                "sprite": {
+                  "posx": 307,
+                  "posy": 101,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Venus",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3820,
+                "paladio": 4997,
+                "elementoZero": 6246,
+                "sprite": {
+                  "posx": 668,
+                  "posy": 284,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 6631,
+                "platino": 3291,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 1040,
+                  "posy": 449,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 6583,
+                "platino": 5000,
+                "paladio": 4012,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 176,
+                  "posy": 449,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 4444,
+                "platino": 6535,
+                "paladio": 3940,
+                "elementoZero": 2763,
+                "sprite": {
+                  "posx": 1022,
+                  "posy": 123,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                2,
+                4
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                3,
+                1
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                99999999
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Sistema Solar 3",
+            "sprite": {
+              "posx": 1015,
+              "posy": 108,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Kleper-10b",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 72,
+                "sprite": {
+                  "posx": 1076,
+                  "posy": 475,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 205,
+                  "posy": 122,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Planeta 3",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 261,
+                  "posy": 471,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "planeta",
+                "iridio": 2000,
+                "platino": 5000,
+                "paladio": 3000,
+                "elementoZero": 3000,
+                "sprite": {
+                  "posx": 677,
+                  "posy": 272,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 1000,
+                "paladio": 1000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 976,
+                  "posy": 79,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                0,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                1,
+                1,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Virginis",
+            "sprite": {
+              "posx": 186,
+              "posy": 483,
+              "selected": "sistemasolar2"
+            },
+            "planetas": [
+              {
+                "nombre": "Planeta 1",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 4517,
+                "elementoZero": 6102,
+                "sprite": {
+                  "posx": 228,
+                  "posy": 99,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Planeta 2",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 1000,
+                "paladio": 1000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 926,
+                  "posy": 125,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 514,
+                  "posy": 252,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 3243,
+                "sprite": {
+                  "posx": 950,
+                  "posy": 425,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Nuevo",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 181,
+                  "posy": 445,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                4,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                4,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                1,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Lupi",
+            "sprite": {
+              "posx": 521,
+              "posy": 47,
+              "selected": "sistemasolar1"
+            },
+            "planetas": [
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 4661,
+                "platino": 3000,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 537,
+                  "posy": 134,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Rojo",
+                "tipo": "planeta",
+                "iridio": 5000,
+                "platino": 3000,
+                "paladio": 1500,
+                "elementoZero": 100,
+                "sprite": {
+                  "posx": 893,
+                  "posy": 80,
+                  "selected": "planeta2"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "ecombustible",
+                "sprite": {
+                  "posx": 959,
+                  "posy": 370,
+                  "selected": "estacionEspacial1"
+                }
+              },
+              {
+                "nombre": "Planeta 4",
+                "tipo": "teletrasportador",
+                "sprite": {
+                  "posx": 391,
+                  "posy": 484,
+                  "selected": "teletransportador1"
+                }
+              },
+              {
+                "nombre": "Planeta 5",
+                "tipo": "planeta",
+                "iridio": 1000,
+                "platino": 7087,
+                "paladio": 3195,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 147,
+                  "posy": 197,
+                  "selected": "planeta1"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                3,
+                4
+              ],
+              [
+                4,
+                2
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                99999999,
+                1,
+                99999999
+              ],
+              [
+                99999999,
+                99999999,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                99999999,
+                1
+              ],
+              [
+                1,
+                99999999,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          },
+          {
+            "nombre": "Mu Arae",
+            "sprite": {
+              "posx": 657,
+              "posy": 397,
+              "selected": "sistemasolar3"
+            },
+            "planetas": [
+              {
+                "nombre": "Azul",
+                "tipo": "planeta",
+                "iridio": 7255,
+                "platino": 5093,
+                "paladio": 5000,
+                "elementoZero": 7000,
+                "sprite": {
+                  "posx": 980,
+                  "posy": 455,
+                  "selected": "planeta3"
+                }
+              },
+              {
+                "nombre": "Luna",
+                "tipo": "planeta",
+                "iridio": 4541,
+                "platino": 5000,
+                "paladio": 1850,
+                "elementoZero": 4685,
+                "sprite": {
+                  "posx": 209,
+                  "posy": 424,
+                  "selected": "planeta4"
+                }
+              },
+              {
+                "nombre": "Tierra",
+                "tipo": "planeta",
+                "iridio": 4541,
+                "platino": 6631,
+                "paladio": 2715,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 296,
+                  "posy": 76,
+                  "selected": "planeta1"
+                }
+              },
+              {
+                "nombre": "Raspi",
+                "tipo": "planeta",
+                "iridio": 6000,
+                "platino": 7000,
+                "paladio": 5000,
+                "elementoZero": 1000,
+                "sprite": {
+                  "posx": 957,
+                  "posy": 128,
+                  "selected": "planeta5"
+                }
+              }
+            ],
+            "lineas": [
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "matrizAdy": [
+              [
+                99999999,
+                1,
+                99999999,
+                99999999
+              ],
+              [
+                1,
+                99999999,
+                1,
+                1
+              ],
+              [
+                99999999,
+                1,
+                99999999,
+                1
+              ],
+              [
+                99999999,
+                1,
+                1,
+                99999999
+              ]
+            ]
+          }
+        ],
+        "lineas": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "matrizAdy": [
+          [
+            99999999,
+            99999999,
+            98700,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            99999999,
+            99999999,
+            99999999,
+            85600,
+            212000,
+            99999999
+          ],
+          [
+            98700,
+            99999999,
+            99999999,
+            150000,
+            99999999,
+            160000
+          ],
+          [
+            99999999,
+            85600,
+            150000,
+            99999999,
+            99999999,
+            99999999
+          ],
+          [
+            99999999,
+            212000,
+            99999999,
+            99999999,
+            99999999,
+            45600
+          ],
+          [
+            99999999,
+            99999999,
+            160000,
+            99999999,
+            45600,
+            99999999
+          ]
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creación - Proyecto Infinity</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/gauge.min.js"></script>
+    <script type="text/javascript" src="assets/js/alertify.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/phaser.min.js"></script>
+    <script type="text/javascript" src="assets/js/objetos.js"></script>
+    <script type="text/javascript" src="assets/js/creacion.js"></script>
+    <script type="text/javascript" src="assets/js/ubicacion.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/interfaz.js"></script>
+    <script type="text/javascript" src="assets/js/cargarJSON.js"></script>
+    <script type="text/javascript" src="assets/js/ataques.js"></script>
+    <script type="text/javascript" src="assets/js/mejoras.js"></script>
+    <script type="text/javascript" src="assets/js/navegacion.js"></script>
+    <script type="text/javascript" src="assets/js/movimiento.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrapAlertify.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/alertify.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <!-- <button id="Mejoras">mejorar</button> -->
+    <!-- <button id="generarJSON">GenerarJSON</button> -->
+    <div id="btnCerrarSideBar" class="fa fa-arrow-circle-right fa-2x btnICON"></div>
+    <div id="sideBarConfig" class="p-3">
+        <h2 id="crearTituloInfo" class="titulo border-bottom text-center">Creación de nebulosa</h2>
+        <div id="nombreContainer" class="form-group row mt-4">
+            <label for="inputNombre" class="col-sm-2 col-form-label">Nombre:</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputNombre" placeholder="Ingrese el nombre de la nebulosa">
+            </div>
+        </div>
+        <div id="nebulosaEsPeligrosa" class="form-check mt-3">
+            <input id="checkNebulosaEsPeligrosa" class="form-check-input " type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="checkNebulosaEsPeligrosa" style="color: #D64541">
+                Es Peligrosa
+            </label>
+        </div>
+        <div id="planetaEsOrigen" class="form-check mt-3 d-none">
+            <input id="checkPlanetaEsOrigen" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="checkPlanetaEsOrigen">
+                Es el planeta Inicial
+            </label>
+        </div>
+        <div id="containerEstilos" class="mt-3 p-2">
+            <h4 class="titulo border-bottom">Estilos</h4>
+            <div id="tipoPlanetaSelect" class="form-group row justify-content-center d-none">
+                <div class="col-sm-8">
+                    <select id="selectTipoPlaneta" class="custom-select custom-select-lg" value="1">
+                        <option value="planeta" selected>Planeta</option>
+                        <option value="ecombustible">Estación de Combustible</option>
+                        <option value="teletrasportador">Teletransportador</option>
+                    </select>
+                </div>
+            </div>
+            <div id="estilosElementos" class="d-flex flex-wrap justify-content-center">
+                <div class="estiloNave imgEstilo activo m-2 d-none" data-idImg="nave1">
+                    <img src="assets/images/nave1.png" width="100" height="100">
+                </div>
+                <div class="estiloNave imgEstilo m-2 d-none" data-idImg="nave2">
+                    <img src="assets/images/nave2.png" width="100" height="100">
+                </div>
+                <div class="estiloNave imgEstilo m-2 d-none" data-idImg="nave3">
+                    <img src="assets/images/nave3.png" width="100" height="100">
+                </div>
+                <div class="estiloNebulosa imgEstilo activo m-2" data-idImg="nebulosa1">
+                    <img class="mt-3" src="assets/images/nebulosa1.png" width="100" height="75">
+                </div>
+                <div class="estiloNebulosa imgEstilo m-2" data-idImg="nebulosa2">
+                    <img class="mt-1" src="assets/images/nebulosa2.png" width="100" height="95">
+                </div>
+                <div class="estiloNebulosa imgEstilo m-2" data-idImg="nebulosa3">
+                    <img class="mt-1" src="assets/images/nebulosa3.png" width="100" height="100">
+                </div>
+                <div class="estiloNebulosa imgEstilo m-2" data-idImg="nebulosa4">
+                    <img class="mt-1" src="assets/images/nebulosa4.png" width="100" height="100">
+                </div>
+                <div class="estiloNebulosa imgEstilo p-1 m-2" data-idImg="nebulosa5">
+                    <img class="mt-4" src="assets/images/nebulosa5.png" width="100" height="58">
+                </div>
+                <div class="estiloSistemaSolar imgEstilo activo d-none m-2" data-idImg="sistemasolar1">
+                    <img class="mt-1" src="assets/images/sistemasolar1.png" width="100" height="100">
+                </div>
+                <div class="estiloSistemaSolar imgEstilo d-none m-2" data-idImg="sistemasolar2">
+                    <img class="mt-1" src="assets/images/sistemasolar2.png" width="100" height="100">
+                </div>
+                <div class="estiloSistemaSolar imgEstilo d-none p-1 m-2" data-idImg="sistemasolar3">
+                    <img class="ml-2" src="assets/images/sistemasolar3.png" width="66" height="100">
+                </div>
+                <div class="estiloPlaneta imgEstilo activo d-none p-1 m-2" data-idImg="planeta1">
+                    <img src="assets/images/planeta1.gif" width="100" height="100">
+                </div>
+                <div class="estiloPlaneta imgEstilo d-none p-1 m-2" data-idImg="planeta2">
+                    <img src="assets/images/planeta2.gif" width="100" height="100">
+                </div>
+                <div class="estiloPlaneta imgEstilo d-none p-1 m-2" data-idImg="planeta3">
+                    <img src="assets/images/planeta3.gif" width="100" height="100">
+                </div>
+                <div class="estiloPlaneta imgEstilo d-none p-1 m-2" data-idImg="planeta4">
+                    <img src="assets/images/planeta4.gif" width="100" height="100">
+                </div>
+                <div class="estiloPlaneta imgEstilo d-none p-1 m-2" data-idImg="planeta5">
+                    <img src="assets/images/planeta5.gif" width="100" height="100">
+                </div>
+                <div class="estiloTTransportador imgEstilo activo d-none" data-idImg="teletransportador1">
+                    <img src="assets/images/teletransportador1.gif" width="100" height="100">
+                </div>
+                <div class="estiloTTransportador imgEstilo d-none p-1" data-idImg="teletransportador2">
+                    <img src="assets/images/teletransportador2.gif" width="95" height="100">
+                </div>
+                <div class="estiloEEspacial imgEstilo activo d-none" data-idImg="estacionEspacial1">
+                    <img src="assets/images/estacionEspacial1.png" width="100" height="100">
+                </div>
+                <div class="estiloEEspacial imgEstilo d-none p-1" data-idImg="estacionEspacial2">
+                    <img src="assets/images/estacionEspacial2.png" width="100" height="100">
+                </div>
+            </div>
+        </div>
+        <div id="combustibleNaveContainer" class="mt-2 p-2 d-none">
+            <h4 class="titulo d-inline-block">Combustible Inicial:</h4>
+            <p id="cantCombustibleLabel" class="font-weight-bold d-inline-block border rounded p-1" style="background-color: #212121;">200000L</p>
+            <div class="border rounded p-2 mb-1">
+                <input type="range" class="custom-range" id="cantCombustibleInicial" value="200000" min="0" max="200000">
+            </div>
+        </div>
+        <div id="inputSondasContainer" class="form-group row p-1 mt-4 d-none">
+            <h4 class="titulo col-sm-7">Número de Sondas:</h4>
+            <div class="col-sm-5">
+                <input type="number" class="form-control" id="inputSondas" placeholder="#" value="15">
+            </div>
+        </div>
+        <div id="materialesPlaneta" class="mt-2 p-2 d-none">
+            <h4 class="titulo border-bottom">Materiales</h4>
+            <div class="border rounded p-2 mb-1">
+                <label class="font-weight-bold d-inline-block" for="cantIridioRango" style="color: #FFFF96;">IRIDIO: </label>
+                <p id="cantIridio" class="font-weight-bold d-inline-block border rounded p-1 mb-0" style="background-color: #212121;">1000T</p>
+                <input type="range" class="custom-range" id="cantIridioRango" value="1000" min="0" max="8000">
+            </div>
+            <div class="border rounded p-2 mb-1">
+                <label class="font-weight-bold d-inline-block" for="cantPlatinoRango" style="color:#DADFE1;">PLATINO: </label>
+                <p id="cantPlatino" class="font-weight-bold d-inline-block border rounded p-1 mb-0" style="background-color: #212121;">1000T</p>
+                <input type="range" class="custom-range" id="cantPlatinoRango" value="1000" min="0" max="8000">
+            </div>
+            <div class="border rounded p-2 mb-1">
+                <label class="font-weight-bold d-inline-block" for="cantPaladioRango" style="color: #757575;">PALADIO: </label>
+                <p id="cantPaladio" class="font-weight-bold d-inline-block border rounded p-1 mb-0" style="background-color: #212121;">1000T</p>
+                <input type="range" class="custom-range" id="cantPaladioRango" value="1000" min="0" max="8000">
+            </div>
+            <div class="border rounded p-2">
+                <label class="titulo font-weight-bold d-inline-block" for="cantEZeroRango">ELEMENTO ZERO: </label>
+                <p id="cantEZero" class="font-weight-bold d-inline-block border rounded p-1 mb-0" style="background-color: #212121;">1000T</p>
+                <input type="range" class="custom-range" id="cantEZeroRango" value="1000" min="0" max="8000">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center m-4">
+            <button id="btnUbicar" class="btn btnGEN btn-lg mr-2">Crear y Ubicar&nbsp;
+                <i class="fa fa-map-marker-alt"></i>
+            </button>
+            <button id="btnGuardar" class="btn btnGEN btn-lg mr-2  d-none">Guardar&nbsp;
+                <i class="fa fa-save"></i>
+            </button>
+            <button id="btnIniciarNave" class="btn btnGEN btn-lg mr-2  d-none">Despegar&nbsp;
+                <i class="fa fa-space-shuttle"></i>
+            </button>
+        </div>
+    </div>
+    <div id="portadaContainer">
+        <div id="portadaPrincipal" style="display: none;">
+            <p>Haz click en la pantalla</p>
+        </div>
+        <div id="menuPrincipal" class="row">
+            <div id="menuContainer" class="col-sm-3">
+                <h4 class="titulo">Menú Principal</h4>
+                <div id="btnSeguirCreando" class="menuItem mt-2">Continuar con la creación</div>
+                <div id="btnSeleccionarMapa" class="menuItem mt-2">Seleccionar un mapa</div>
+                <div id="btnConfigPrecios" class="menuItem mt-2">Configurar Precios</div>
+                <div id="btnConfigEnemigos" class="menuItem mt-2">Configurar Enemigos</div>
+                <div id="btnAbrirCreditos" class="menuItem mt-2">Créditos</div>
+                <div id="btnVolverPortada" class="menuItem mt-2">Volver</div>
+            </div>
+            <div id="submenuContainer" class="col-sm-1">
+                <div onclick="cargarJson('mapa1');" class="menuItem menuMapa mt-2 d-none" data-toggle="popover" data-placement="right" title="Descripción"
+                    data-html="true" data-content="6 Nebulosas <br/> 30 sistemas solares <br/> 160 planetas">Mapa 1</div>
+                <div onclick="cargarJson('mapa2');" class="menuItem menuMapa mt-2 d-none" data-toggle="popover" data-placement="right" title="Descripción"
+                    data-html="true" data-content="6 Nebulosas <br/> 33 sistemas solares <br/> 166 planetas">Mapa 2</div>
+                <div onclick="cargarJson('mapa3');" class="menuItem menuMapa mt-2 d-none" data-toggle="popover" data-placement="right" title="Descripción"
+                    data-html="true" data-content="6 Nebulosas <br/> 30 sistemas solares <br/> 142 planetas">Mapa 3</div>
+                <div onclick="cargarJson('mapa4');" class="menuItem menuMapa mt-2 d-none" data-toggle="popover" data-placement="right" title="Descripción"
+                    data-html="true" data-content="3 Nebulosas <br/> 20 sistemas solares <br/> 40 planetas">Mapa 4</div>
+                <div class="menuItem mt-2 menuPrecio d-none" onclick="cambiarPrecioCombustible();">Precio del Combustible</div>
+                <div class="menuItem mt-2 menuPrecio d-none" onclick="cambiarPrecioSondas();">Precio de las Sondas</div>
+            </div>
+        </div>
+        <div id="creditos" style="display: none;">
+            <div id="btnCerrarCreditos" class="fa fa-times fa-2x m-2" style="color: #ffffff;"></div>
+            <div class="creditosContainer">
+                <div class="tituloProyecto">Proyecto Infinity</div>
+                <div class="credRol">Para la profesora</div>
+                <div class="credNombre">Luz Enith Guerrero</div>
+                <div class="credRol">Estudiente</div>
+                <div class="credNombre">Mario Andres Yusti Mejia</div>
+                <div class="credRol">Estudiante</div>
+                <div class="credNombre">Diego Fernando Gomez Peña</div>
+                <div class="credRol"></div>
+                <div class="credNombre">Universidad de Caldas</div>
+                <div class="credNombre">2018</div>
+            </div>
+        </div>
+    </div>
+    <div id="gameContainer" class="container-fluid">
+        <ul id="navToolsCreate" class="nav flex-column">
+            <li class="nav-item">
+                <div id="btnCrear" class="fa fa-plus btnMetal m-2" data-toggle="popover" data-placement="left" data-content="Crear Nueva Nebulosa"></div>
+            </li>
+            <li class="nav-item">
+                <div id="btnEditar" class="fa fa-pencil-alt btnMetal m-2" data-toggle="popover" data-placement="left" data-content="Editar la galaxia"></div>
+            </li>
+            <li class="nav-item">
+                <div id="btnEliminar" class="fa fa-trash-alt btnMetal m-2 d-none" data-toggle="popover" data-placement="left" data-content="...."></div>
+            </li>
+        </ul>
+        <div id="infoUbicacion" class="pl-2 pr-2">
+            <p id="infoUbic">Vía Láctea</p>
+        </div>
+        <div id="btnAtras" class="fa fa-chevron-left btnMetal" data-toggle="popover" data-placement="bottom" data-content="Atrás"></div>
+        <!-- <div id="btnEstado" class="fa fa-chevron-circle-up fa-2x btnICON "></div> -->
+        <div id="containerEstadoVida" style="display: none;">
+            <div class="progress" style="width: 100%; height: 25px;">
+                <div id="vidaNave" class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Vida al 100%</div>
+            </div>
+            <div class="progress mt-3 mb-2" style="width: 100%; height: 25px;">
+                <div id="escudoNave" class="progress-bar progress-bar-striped" role="progressbar" style="width: 0%;" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">Escudo (Nivel 3)</div>
+            </div>
+        </div>
+        <div id="containerEstadoCombustible" style="display: none;">
+            <canvas id="combustibleNivelNave" width="210px" height="200px"></canvas>
+            <div class="titulo text-center darkShadow">Nivel de Combustible&nbsp;
+                <label id="labelCombustible" class="m-0"></label>
+            </div>
+        </div>
+        <div id="containerEstadoSondas" style="display: none;">
+            <h5 class="d-inline-block darkShadow" style="color: #ffffff;">Numero de Sondas:
+            </h5>
+            <div id="numSondas" class="rounded-circle d-inline-block align-middle h4 ml-1 p-1">15</div>
+        </div>
+        <div id="containerEstadoMateriales" style="display: none;">
+            <div class="titulo text-center darkShadow mt-3">Materiales</div>
+            <div id="cantMateriales" class="progress mt-1 w-100" style="height: 25px;">
+                <div id="cantIridioNave" class="progress-bar" role="progressbar" data-toggle="popover" style="width: 0%;" data-placement="top" data-content=""></div>
+                <div id="cantPlatinoNave" class="progress-bar" role="progressbar" data-toggle="popover" style="width: 0%;" data-placement="top" data-content=""></div>
+                <div id="cantPaladioNave" class="progress-bar" role="progressbar" data-toggle="popover" style="width: 0%;" data-placement="top" data-content=""></div>
+                <div id="cantEZeroNave" class="progress-bar" role="progressbar" data-toggle="popover" style="width: 0%;"data-placement="top" data-content=""></div>
+            </div>
+        </div>
+        <div id="btnIniciar" class="fa fa-play-circle fa-2x btnICON" onclick="iniciarSimulacion()"></div>
+        <div id="containerConfigAtaque" class="p-2">
+            <h4 class="titulo border-bottom text-center">Tipos de naves enemigas</h4>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div id="optionAttackAvanzada" class="estiloEnemigo imgEstilo p-1 m-2 activo" data-idImg="" data-tipoEnemigo="Nave de Avanzada"
+                    data-toggle="popover" data-placement="left" data-content="Atrás">
+                    <img src="assets/images/naveAvanzada.png" width="100" height="100">
+                </div>
+                <div id="optionAttackExp" class="estiloEnemigo imgEstilo p-1 m-2" data-idImg="" data-tipoEnemigo="Nave Exploradora">
+                    <img src="assets/images/naveExploradora.png" width="100" height="100">
+                </div>
+                <div id="optionAttackNodriza" class="estiloEnemigo imgEstilo p-1 m-2" data-idImg="" data-tipoEnemigo="Nave Nodriza">
+                    <img src="assets/images/naveNodriza.png" width="100" height="100">
+                </div>
+            </div>
+            <h5 id="infoTipoEnemigo" class="titulo border-top border-bottom text-center p-1 mt-4">Nave de Avanzada</h5>
+        </div>
+        <div id="btnAtacar" class="btn btn-danger">Atacar</div>
+        <div id="containerEstadoVidaEnemigo">
+            <div class="progress" style="width: 100%; height: 25px;">
+                <div id="vidaNaveEnemiga" class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100">Vida Enemiga al 100%</div>
+            </div>
+        </div>
+        <div class="progressP">
+            <div id="progressBarSonda" class="progress-bar progress-bar-warning" style="width: 0%;"></div>
+        </div>
+
+        <!-- Botón para ejecutar Pruebas -->
+        <div id="btnPruebas" class="btnICON fa fa-question fa-2x"></div>
+    </div>
+</body>
+
+</html>

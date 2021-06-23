@@ -17,7 +17,7 @@ Proyecto para la materia de Análisis y Diseño de Algoritmos - Universidad de C
 
 ### Sistema Solar
 
-![Vista ](docs/images/sistema-solar-view.png)
+![Vista Sistema Solar](docs/images/sistema-solar-view.png)
 
 ### Inicio de la Simulación
 
